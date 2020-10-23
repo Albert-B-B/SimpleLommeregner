@@ -1,4 +1,5 @@
 #Simple lommeregner
+from playsound import playsound
 print("Hej dette er en lommeregner")
 while True:
     print("Regn a + b")
@@ -13,11 +14,11 @@ while True:
     except ValueError:
             print("Error: a eller b invalid")
             continue
-        
+
     c = a+b
-    if a == 1:
+    if a == 69:
          print("kage")
+         playsound('GoodShit.mp3')
     else:
         output= "{}+{}={}".format(a,b,c)
         print(output)
-
